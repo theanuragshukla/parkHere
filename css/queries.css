@@ -1,0 +1,85 @@
+/* *********************** */
+/* Below 1344px (smaller desktops) */
+/* *********************** */
+@media (max-width: 84em) {
+  .container {
+    padding: 0 4.8rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* *********************** */
+/* Below 944px (Tablets) */
+/* *********************** */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+    max-width: 100rem;
+    line-height: 1.4;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+}
+
+/* *********************** */
+/* Below 816px (Hero Section Breaking) */
+/* *********************** */
+
+@media (max-width: 51em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    padding: 0 8rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 8rem;
+  }
+
+  .logo-img {
+    height: 6.4;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+}
+
+/* *********************** */
+/* Below 544px (Phones) */
+/* *********************** */
+@media (max-width: 34em) {
+  .container {
+    padding: 0 3.2rem;
+  }
+
+  .hero {
+    margin-bottom: 12rem;
+  }
+
+  .logo-img {
+    height: 4.8rem;
+  }
+
+  .social-icon {
+    font-size: 1.6rem;
+  }
+}

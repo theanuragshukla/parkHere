@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--nav-height:70px;
+}
+html {
+	font-size: 16px;
+}
+.super {
+	display: flex;
+	justify-content: flex-start;
+	min-height: 100vh;
+	flex-direction: column;
+	width: 100vw;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: aliceblue;
+	min-height:var(--nav-height);
+	width: 100vw;
+	padding: 0 30px;
+}
+.logo span {
+	font-size: 1.5rem;
+	font-weight: 800;
+
+}
+.main {
+	width: 100vw;
+}
+.hero {
+	display: flex;
+	justify-content: center;
+	min-height: calc(100vh - var(--nav-height) - 100px);
+	flex-direction: column;
+}
+.hero span{
+	font-size: 2.5rem;
+	padding-left: 30px;
+}

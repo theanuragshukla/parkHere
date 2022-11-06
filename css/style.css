@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* ************************ */
+/* GENERAL STYLE */
+/* ************************ */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 8rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  border-radius: 100px;
+  border: none;
+  padding: 16px 48px;
+  background-color: #fff;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: .4rem;
+}
+
+/* ************************ */
+/* HERO SECTION */
+/* ************************ */
+.section-hero {
+  background-image: url(images/bg-desktop.svg),
+    linear-gradient(hsl(257, 40%, 49%), hsl(257, 40%, 49%));
+  padding: 4.8rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.heading-primary {
+  color: white;
+  line-height: 1.2;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4.8rem;
+  margin-bottom: 8rem;
+}
+
+.logo-img {
+  height: 8rem;
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.hero-description {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 6.4rem;
+}
+
+.register {
+  color: hsl(257, 40%, 49%);
+  box-shadow: 0 0 3rem hsla(257, 40%, 49%, 0.726);
+}
+
+/* BUG : Don't know why the color property is not working */
+.register:link,
+.register:visited {
+  /* color: hsl(257, 40%, 49%); */
+  /* box-shadow: 0 0 3rem hsla(257, 40%, 49%, 0.726); */
+}
+
+.register:hover,
+.register:active {
+  color: #fff;
+  background-color: hsl(300, 69%, 71%);
+}
+
+.launch {
+	background: transparent;
+	color: #fff;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 12px;
+}
+
+.social-icon {
+  font-size: 2.4rem;
+  fill: #fff;
+  cursor: pointer;
+
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 8px;
+
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  fill: hsl(300, 69%, 71%);
+  border: 2px solid hsl(300, 69%, 71%);
+}
